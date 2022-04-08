@@ -3,8 +3,8 @@ on:
   schedule:
     - cron: '*/6 * * * *'
   push:
-    branches:
-      - master
+    branches: [ master ]
+  
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
