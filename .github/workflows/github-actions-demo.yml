@@ -4,6 +4,7 @@ on:
     - cron: '*/6 * * * *'
   push:
     branches: [ master ]
+  pull_request:
   
 jobs:
   Explore-GitHub-Actions:
