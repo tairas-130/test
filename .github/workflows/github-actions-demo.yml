@@ -2,7 +2,7 @@ name: crontest
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '*/15 * * * *'
   push:
     branches: [ main ]
   pull_request:
