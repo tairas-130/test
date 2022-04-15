@@ -22,8 +22,8 @@ jobs:
 
       - name: something when command success
         run: echo "result - success"
-        if: steps.check_something.outcome == 'success'
+
 
       - name: something when command failure
         run: echo "result - failure"
-        if: steps.check_something.outcome == 'failure'
+
